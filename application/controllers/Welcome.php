@@ -11,7 +11,9 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		//$this->load->view('welcome_message');
+		//$this->load->view('view_form');
+		$this->load->view('view_form_bk');
 	}
 	
 	public function getAllProducts(){
